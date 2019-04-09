@@ -78,6 +78,7 @@ with open("TWC_Dict.txt","r",encoding="utf8")as file:
 K=[]
 K_match=0
 
+print("Soundex Version 1")
 print("Select 1 to input word to see its group")
 print("Select 2 to input group to see its group")
 n=int(input("Select 1 or 2: "))
