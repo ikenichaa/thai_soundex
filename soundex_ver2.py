@@ -75,7 +75,7 @@ def main(wrd):
         if ((w[i]=='ร') and (i!=len(w)-1)): # delete รร
             if (w[i+1]=='ร'):
                 delete.append(i)
-                delete.append(i+1)
+                w[i+1]='น'
     for k in range(0,len(delete)):
         gone = delete[k]
         del w[gone-k]
