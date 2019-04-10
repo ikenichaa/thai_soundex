@@ -61,7 +61,7 @@ def main(wrd):
     return(ans)
 
 l=[]
-with open("TWC_Dict.txt","r",encoding="utf8")as file:
+with open("wordlist.txt","r",encoding="utf8")as file:
     lines = file.readlines()
     #lines.rstrip("\n")
     last=lines[-1]
